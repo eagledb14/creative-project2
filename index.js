@@ -1,5 +1,5 @@
 function load() {
-    document.getElementById('container').style.height = window.innerHeight +'px';
+    // document.getElementById('container').style.height = window.innerHeight +'px';
     let infoUrl = "https://api.countapi.xyz/info/db14.net/test";
 
     fetch(infoUrl)
@@ -33,7 +33,7 @@ window.addEventListener('resize', (event) => {
     document.getElementById('the-button').style.width = dimension.toString() + "px";
     document.getElementById('the-button').style.height = dimension.toString() + "px";
 
-    document.getElementById('container').style.height = window.innerHeight +'px';
+    // document.getElementById('container').style.height = window.innerHeight +'px';
 })
 
 document.getElementById('the-button').addEventListener("click", event => {
