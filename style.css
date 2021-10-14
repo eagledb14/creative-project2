@@ -9,7 +9,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Comic, Comic, cursive;
 }
 
 /* html, body {
@@ -39,6 +38,7 @@
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .padding {
@@ -70,7 +70,6 @@
 }
 
 h2 {
-    font-size: 2.3vw;
     color: #fff8f0ff;
 }
 
@@ -87,7 +86,6 @@ h2 {
 
 .footer-container {
     width: 100%;
-    height: 5vw;
     background-color: #55199F;
 }
 
@@ -103,7 +101,6 @@ h2 {
     text-decoration: none;
     color: #fff8f0ff;
     padding: 5px;
-    font-size: 1.1vw;
 }
 
 .footer-element:hover {
@@ -119,4 +116,19 @@ h2 {
 /* Desktop */
 @media only screen and (min-width: 961px) {
 
+    * {
+        font-family: Comic, Comic, cursive;
+    }
+
+    h2 {
+        font-size: 2.3vw;
+    }
+
+    .footer-container {
+        height: 5vw;
+    }
+
+    .footer-element {
+        font-size: 1.1vw;
+    }
 }
