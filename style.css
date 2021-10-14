@@ -1,0 +1,76 @@
+/* CSS HEX */
+/* --floral-white: #fff8f0ff;
+--auburn: #9e2b25ff;
+--english-violet: #51355aff;
+--russian-violet: #2a0c4eff;
+--beige: #f5f8deff; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #55199F;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 5vw 0;
+    background-color: #2a0c4eff;
+    color: #fff8f0ff;
+    font-size: 3vw;
+}
+
+.header-element {
+
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.padding {
+    margin: 5vw;
+}
+
+#the-button {
+    width: 30vw;
+    height: 30vw;
+
+    border-radius: 100%;
+    position: relative;
+
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 5vw;
+    background-color: #9e2b25ff;
+    border: none;
+    box-shadow: -5px 30px #999;
+}
+
+#the-button:hover {
+    background-color: red;
+}
+
+#the-button:active {
+    background-color: rgb(230,0,0);
+    box-shadow: -5px 10px #666;
+    transform: translateY(20px);
+    /* transform: translateX(-5px); */
+}
+
