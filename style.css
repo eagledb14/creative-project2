@@ -11,14 +11,9 @@
     box-sizing: border-box;
 }
 
-/* html, body {
-    height: 100%;
-    width: 100%;
-} */
-
-.container {
-    width: 100%;
-    height: 100%;
+#container {
+    /* width: 100%; */
+    /* height: 100%; */
     background-color: #55199F;
 }
 
@@ -28,7 +23,6 @@
     padding: 5vw 0;
     background-color: #2a0c4eff;
     color: #fff8f0ff;
-    font-size: 2.5vw;
 }
 
 .page {
@@ -38,7 +32,6 @@
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .padding {
@@ -74,13 +67,12 @@ h2 {
 }
 
 .info {
-    font-size: 1.3vw;
     color: #fff8f0ff;
 }
 
 #activities {
     margin-top: 1vw;
-    font-size: 1.3vw;
+    /* font-size: 1.3vw; */
     color: #fff8f0ff;
 }
 
@@ -110,7 +102,25 @@ h2 {
 
 /* mobile */
 @media only screen and (max-width: 960px) { 
+    /* .header {
+        font-size: 2.5vw;
+    }
 
+    h2 {
+        font-size: 2.3vw;
+    }
+
+    .info {
+        font-size: 1.3vw;
+    }
+
+    .footer-container {
+        height: 5vw;
+    }
+
+    .footer-element {
+        font-size: 1.1vw;
+    } */
 }
 
 /* Desktop */
@@ -120,8 +130,16 @@ h2 {
         font-family: Comic, Comic, cursive;
     }
 
+    /* .header {
+        font-size: 2.5vw;
+    }
+
     h2 {
         font-size: 2.3vw;
+    }
+
+    .info {
+        font-size: 1.3vw;
     }
 
     .footer-container {
@@ -130,5 +148,5 @@ h2 {
 
     .footer-element {
         font-size: 1.1vw;
-    }
+    } */
 }
