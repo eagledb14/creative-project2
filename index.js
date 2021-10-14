@@ -1,5 +1,5 @@
-// function info() {
-window.addEventListener('load', event => {
+function info() {
+// window.addEventListener('load', event => {
     let infoUrl = "https://api.countapi.xyz/info/db14.net/test";
 
     fetch(infoUrl)
@@ -25,7 +25,7 @@ window.addEventListener('load', event => {
             document.getElementById("activities").appendChild(newList);
         })
     }
-})
+}
 
 window.addEventListener('resize', (event) => {
     let dimension = window.innerWidth * 0.25;
@@ -59,18 +59,18 @@ document.getElementById('the-button').addEventListener("click", event => {
 });
 
 
-document.getElementById("increase").addEventListener("click", event => {
-    event.preventDefault();
+// document.getElementById("increase").addEventListener("click", event => {
+//     event.preventDefault();
 
-    let addUrl = "https://api.countapi.xyz/update/db14.net/test?amount=1";
+//     let addUrl = "https://api.countapi.xyz/update/db14.net/test?amount=1";
 
-    fetch(addUrl)
-    .then(response => {
-        return response.json();
-    })
-    .then(json => {
-        console.log(json);
-        document.getElementById('the-button').innerHTML = json.value;
-        // document.getElementById('the-button').disabled = false;
-    })
-})
+//     fetch(addUrl)
+//     .then(response => {
+//         return response.json();
+//     })
+//     .then(json => {
+//         console.log(json);
+//         document.getElementById('the-button').innerHTML = json.value;
+//         // document.getElementById('the-button').disabled = false;
+//     })
+// })
